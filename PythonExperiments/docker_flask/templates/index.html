@@ -1,0 +1,11 @@
+<html>
+<head> 
+    <title>Run in Docker!!</title>
+    <link rel="stylesheet" href= "../static/style.css" />
+</head>
+<body>
+    <h1>Docker run {{ request.remote_addr }}</h1> 
+    <h2>Current date and time: {{ datetime_now }}</h2> 
+    <iframe scrolling="no" width="500" height ="500" frameborder="0" marginwidth="0" marginheight="0" src="https://www.meteo.be/services/widget/.?postcode=1180&nbDay=2&type=4&lang=nl&bgImageId=5&bgColor=567cd2&scrolChoice=0&colorTempMax=A5D6FF&colorTempMin=ffffff"></iframe>
+</body> 
+</html>
